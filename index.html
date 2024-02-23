@@ -9,26 +9,6 @@
 </head>
 
  <body> 
-        header {
-            position: relative;
-            height: 100vh;
-            background: black;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
-
-        video {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-width: 100%;
-            min-height: 100%;
-            object-fit: cover;
-            z-index: -1;
-        }
         <video autoplay muted loop>
             <source src="video3.mp4" type="video/mp4">
             Your browser does not support the video tag.
@@ -36,30 +16,37 @@
      
  <h1 style="background-color:#000000;">Speed Star Motors</h1> 
  
-<a href = "https://www.fouchemotors.co.za/" TARGET=_SELF TITLE="Emmerse Yourself in High-end Models"> High-end Models</a> 
-<a href = "https://dadamotorspta.co.za/">Mid-range Models</a> 
-<a href = "https://www.autotrader.co.za/">Low-end Models</a>
- 
- 
-
- <p style="background-color:#3600d2;">At SpeedStar Motors, we not only pride ourselves in selling you a car, but selling you a dream. Our customers have access to the highest quality pre-loved automobiles maintaned and serviced by our qualified team of technicians. </p> 
-
- </body>  
-
- <nav> 
-<ul>
- </ul> 
-</nav> 
-<article> 
-<section> 
-<p>For More information, contact the CEO , Wayne Los at +267 76 929 120.</p>
-<p>Call the Headquarters at +267 393 8780</p>
-</section> 
-</article> 
-<aside> 
-<p>This is  aside part of the web page</p> 
-</aside> 
-<footer> 
-<p>Created by <a href = "https://www.lambonb.com/">Fantos Motorsport</a></p> 
-</footer> 
+ <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      border: none;
+      background-color: #333;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <button onclick="location.href='index.html'">Home</button>
+    <button onclick="location.href='about.html'">About</button>
+    <button onclick="location.href='services.html'">Services</button>
+    <button onclick="location.href='contact.html'">Contact</button>
+  </nav>
+</body>
 </html>
