@@ -1,4 +1,9 @@
- body {
+a:link {
+   color: green;
+   text-decoration: none;
+}
+
+body {
             margin: 0;
             padding: 0;
             overflow: scroll;
