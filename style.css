@@ -1,7 +1,14 @@
-a:visited {
+        a:visited{
    color: green;
    text-decoration: none;
 }
+              a:link{
+   color: red;
+   text-decoration: none;
+}
+                   a:hover{
+   color: hotpink;
+   text-decoration: none;
 
 body {
             margin: 0;
@@ -31,6 +38,7 @@ body {
       padding: 0;
        font-family: "Lucida Console", "Courier New", monospace;
     }
+                      
 p {
   style="font-family:'Courier New'"
 }
@@ -42,17 +50,18 @@ p {
 
     button {
       padding: 10px 20px;
-      margin: 0 10px;
+      margin: 10 10px;
       border: none;
       background-color: #333;
       color: white;
       border-radius: 5px;
-      cursor: pointer;
+      cursor: crosshair;
     }
 
     button:hover {
       background-color: #555;
     }
+                      
 
 footer {
   text-align: center;
