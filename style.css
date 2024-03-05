@@ -11,19 +11,19 @@ aside,article{
 aside#left{
 	background: #868eff;
 	float: left;
-	width: 50%;
+	width: 25%;
 }
 
 
 article{
-	float: center;
+	float: left;
 	width: 50%;
 }
 
 aside#right{
-	background: #f00;
+	background: #3600d2;
 	float: right;
-	width: 15%;
+	width: 25%;
 }
       
 video {
@@ -64,8 +64,6 @@ button {
       padding: 10px 20px;
       margin: 0 10px;
       border: none;
-      background-color: #333;
-      color: white;
       border-radius: 5px;
       cursor: pointer;
     }
@@ -74,5 +72,4 @@ footer {
   text-align: center;
   padding: 3px;
   background-color: #868eff;
-  color: #000000;
 }
