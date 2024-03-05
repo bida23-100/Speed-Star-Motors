@@ -1,14 +1,14 @@
         a:visited{
-   color: green;
+   color: pink;
    text-decoration: none;
 }
               a:link{
-   color: red;
+   color: green;
    text-decoration: none;
 }
                    a:hover{
-   color: hotpink;
-   text-decoration: none;
+   color: red;
+   text-decoration: underline;
 
 body {
             margin: 0;
