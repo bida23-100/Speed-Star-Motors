@@ -13,6 +13,9 @@ aside#left{
 	float: left;
 	width: 25%;
 }
+article{
+	float:center;
+	width:50%
 
 aside#right{
 	background: transparent;
