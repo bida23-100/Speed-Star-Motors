@@ -1,88 +1,67 @@
-body{
- 
-				background: #aef;
-				margin: 0 10%;
-				padding: 0 2%;
-    overflow:scroll;
-}
-
-header{
- 
-				background: #999;
-				min-height: 150px;
+a:hover{
+	    color:red
+	    background-color:transparent;
+	    text-decoration:underlined;
 }
 
 aside,article{
  
-				margin: 2%;
+	margin: 2%;
 }
 
-			aside#left{
-    
-				background: #fff;
-				float: left;
-				width: 15%;
+aside#left{
+	background: #fff;
+	float: left;
+	width: 15%;
 }
-			aside#left ul{
-    
-				list-style: none;
+
+
+article{
+	float: left;
+	width: 50%;
 }
-			aside#left ul li{
-    
-				background: #ccc;
-				line-height: 24pt;
-				border: #fff thin solid;
-				margin-top: 1%;
- }
 
-			aside#left ul li:hover{
-				background: #fff;
-				border: #000 thin solid;
-			}
-
-			article{
-				float: left;
-				width: 50%;
-			}
-
-			aside#right{
-				background: #f00;
-				float: left;
-				width: 15%;
-			}
+aside#right{
+	background: #f00;
+	float: left;
+	width: 15%;
+}
       
-        video {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 98%;
-            object-fit: cover;
-            z-index: -1;
-        }
-        .content {
-            position: relative;
-            z-index: 1;
-            text-align: center;
-            color: white;
-            padding: 20px;
-        }
+video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 98%;
+	object-fit: cover;
+	z-index: -1;
+}
+
+.content {
+	position: relative;
+	z-index: 1;
+	text-align:center;
+	color: white;
+	padding: 20px;
+}
 
 body {
       margin: 0;
       padding: 0;
-       font-family: "Lucida Console", "Courier New", monospace;
-    }
-p {
-  style="font-family:'Courier New'"
+      font-family: "Lucida Console", "Courier New", monospace;
 }
-    nav {
+
+p {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+nav {
       display: flex;
       justify-content: center;
       margin-top: 20px;
     }
 
-    button {
+button {
       padding: 10px 20px;
       margin: 0 10px;
       border: none;
@@ -90,10 +69,6 @@ p {
       color: white;
       border-radius: 5px;
       cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #555;
     }
 
 footer {
