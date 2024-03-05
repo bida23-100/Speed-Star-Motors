@@ -9,13 +9,13 @@ aside{
 }
 
 aside#left{
-	background: #868eff;
+	background: transparent;
 	float: left;
 	width: 25%;
 }
 
 aside#right{
-	background: #3600d2;
+	background: transparent;
 	float: right;
 	width: 25%;
 }
