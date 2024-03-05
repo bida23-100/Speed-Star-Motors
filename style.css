@@ -1,6 +1,5 @@
 a:hover{
 	    color:red
-	    background-color:transparent;
 	    text-decoration:underlined;
 }
 
@@ -17,13 +16,13 @@ aside#left{
 
 
 article{
-	float: left;
+	float: center;
 	width: 50%;
 }
 
 aside#right{
 	background: #f00;
-	float: left;
+	float: right;
 	width: 15%;
 }
       
@@ -75,5 +74,5 @@ footer {
   text-align: center;
   padding: 3px;
   background-color: #868eff;
-  color: 000000;
+  color: #000000;
 }
