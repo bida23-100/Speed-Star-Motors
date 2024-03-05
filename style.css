@@ -14,12 +14,6 @@ aside#left{
 	width: 25%;
 }
 
-
-article{
-	float: right;
-	width: 30%;
-}
-
 aside#right{
 	background: #3600d2;
 	float: left;
