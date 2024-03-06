@@ -7,10 +7,11 @@ aside#left{
 	background: transparent;
 	float: left;
 	width: 15%;
-	padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 15px;
-        padding-left: 5px;
+	margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        margin-left: 5px;
+	
 }
 
 aside#right{
