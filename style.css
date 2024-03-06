@@ -1,18 +1,18 @@
 aside{
  
-	margin: 2%;
+	margin: 1%;
 }
 
 aside#left{
 	background: transparent;
 	float: left;
-	width: 25%;
+	width: 15%;
 }
 
 aside#right{
 	background: transparent;
 	float: right;
-	width: 25%;
+	width: 20%;
 }
       
 video {
