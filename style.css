@@ -39,7 +39,9 @@ body {
 }
 
 p {
-  font-family: "Lucida Console", "Courier New", monospace;
+	font-family: "Lucida Console", "Courier New", monospace;
+	margin-left:10px;
+	margin-right:20px;
 }
 
 nav {
