@@ -5,8 +5,8 @@ body {
 }	
 			
 header{
-      background: #999;
-      min-height: 150px;
+      background: #000;
+      min-height: 60px;
 }
 
 aside,article{
@@ -14,7 +14,7 @@ aside,article{
 }
 
 aside#left{
-       background: #fff;
+       background: transparent;
        float: left;
        width: 15%;
 }
@@ -24,15 +24,14 @@ aside#left ul{
 }
 
 aside#left ul li{
-       background: #ccc;
+       background: tranparent;
        line-height: 24pt;
        border: #fff thin solid;
        margin-top: 1%;
 }
 
 aside#left ul li:hover{
-      background: #fff;
-      border: #000 thin solid;
+      background: #3600d2;
 }
 
 article{
@@ -41,7 +40,7 @@ article{
 }
 
 aside#right{
-       background: #f00;
+       background: transparent;
        float: left;
        width: 15%;
 }
