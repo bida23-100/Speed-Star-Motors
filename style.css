@@ -1,50 +1,19 @@
-body {
-      margin: 0;
-      padding: 0;
-      font-family: "Lucida Console", "Courier New", monospace;
-}	
-			
-header{
-      background: transparent;
-      min-height: 60px;
-}
-
-aside,article{
-      margin: 10%;
+aside{
+ 
+	margin: 1%;
 }
 
 aside#left{
-       background: transparent;
-       float: left;
-       width: 15%;
+	background: transparent;
+	float: left;
+	width: 15%;
+	margin-top: 10px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        margin-left: 5px;
+	
 }
-
-aside#left ul{
-       list-style: none;
-}
-
-aside#left ul li{
-       background: tranparent;
-       line-height: 24pt;
-       border: #fff thin solid;
-       margin-top: 1%;
-}
-
-aside#left ul li:hover{
-      background: #3600d2;
-}
-
-article{
-      float: left;
-      width: 50%;
-}
-
-aside#right{
-       background: transparent;
-       float: left;
-       width: 15%;
-}
-
+      
 video {
 	position: fixed;
 	top: 0;
@@ -70,9 +39,7 @@ body {
 }
 
 p {
-	font-family: "Lucida Console", "Courier New", monospace;
-	margin-left:10px;
-	margin-right:20px;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 nav {
